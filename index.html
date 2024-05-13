@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>mywebsite</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/style.css'>
+    <script src="main.js"></script>
+    <!--fontawesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <!-- remixicon icons cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" 
+    integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <!-- HEADER SECTION STARTS -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav-logo">
+                <img src="zss.png" alt="" class="logo-img">
+            </a>
+
+            <div class="nav-menu" id="nav_menu">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="#banner_home" class="nav-list-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#aboutme" class="nav-list-link">Hakkımda</a>
+                    </li>
+                    
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#my_services" class="nav-list-link">Becerilerim</a>
+                    </li>
+                    <!-- <li class="nav-list-item">
+                        <a href="#" class="nav-list-link">My Blogs</a>
+                    </li> -->
+                    <li class="nav-list-item">
+                        <button onclick="document.getElementById('footer').scrollIntoView();">İletişim</button>
+                    </li>
+                    
+                </ul>
+
+                <div class="nav-close-btn" id="nav_close_btn">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav-toggle-btn" id="nav_toggle_btn">
+                <i class="ri-menu-3-line" style="font-weight: 900;"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- header section ends -->
+
+<main class="main">
+
+    <!-- BANNER SECTION STARTS -->
+    <section class="section banner" id="banner-home">
+        <div class="banner-container container">
+            <div class="banner-content">
+                
+                <h2 class="banner-heading"> Merhaba, ben  <br> Zeynep Savaş</h2>
+                <div class="banner-buttons"> 
+                    <button id="download-cv" onclick="window.location.href='cv.pdf';">Resume CV</button>
+                </div>
+            </div>
+
+            <div class="banner-image">
+                <img src="zyro-image-2.png" alt="zeynepsavas">
+            </div>
+        </div>
+    </section>
+    <!-- BANNER SECTION ENDS -->
+
+    <!-- ABOUT ME SECTION STARTS -->
+    <section class="section about-me" id="about_me">
+        <div class="about-container container">
+            <div class="section-image">
+                <img src="./assets/images/abouttt.png" alt="">
+            </div>
+
+            <div class="section-content">
+                <div class="subheading-box">
+                    <h2 class="subheading">Hakkımda</h2>
+                </div>
+                <p class="content-text">Ankara Medipol Üniversitesi Yönetim Bilişim Sistemleri bölümü 3. sınıf öğrencisiyim. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT ME SECTION ENDS -->
+
+    
+
+    <!-- MY SERVIVES SECTION STARTS -->
+
+    <section class="section services" id="my_services">
+        <div class="container services-container">
+            <div class="section-content">
+                <div class="subheading-box">
+                    <h3 class="subheading">Neler Yapıyorum?</h3>
+                </div>
+                <h1 class="heading">Becerilerim</h1>
+            </div>
+
+            <div class="services-boxes">
+
+                <div class="service-col">
+                    <div class="service-info">
+                    <div class="service-icon">
+                        <img height="36" width="36" src="4.png" alt="" class="service-image">
+                    </div>
+                    <div class="service-content">
+                        <h2 class="h2 service-heading"><a href="#" class="service-link">HTML-CSS</a></h2>
+                        <p class="services-detail"> Orta seviye </p>
+                    </div>
+                    </div>  
+                </div>
+
+                <div class="service-col">
+                    <div class="service-info">
+                    <div class="service-icon">
+                        <img height="36" width="36" src="2.png" alt="" class="service-image">
+                    </div>
+                    <div class="service-content">
+                        <h2 class="h2 service-heading"><a href="#" class="service-link">PYTHON</a></h2>
+                        <p class="services-detail">Orta seviye </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="service-col">
+                    <div class="service-info">
+                    <div class="service-icon">
+                        <img height="36" width="36" src="1.png" alt="" class="service-image">
+                    </div>
+                    <div class="service-content">
+                        <h2 class="h2 service-heading"><a href="#" class="service-link">SQL</a></h2>
+                        <p class="services-detail">Orta seviye</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="service-col">
+                    <div class="service-info">
+                    <div class="service-icon">
+                        <img height="36" width="36" src="3.png" alt="" class="service-image">
+                    </div>
+                    <div class="service-content">
+                        <h2 class="h2 service-heading"><a href="#" class="service-link">DİL</a></h2>
+                        <p class="services-detail">İngilizce</p>
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+</section>    
+<div id="image-slider">
+    <h3>Bazı Fotoğraflarım</h3>
+    <div class="image-info-container">
+        <p id="image-info">Ankara, BTK Yapay Zeka Zirvesi</p>
+    </div>
+    <img src="image2.jpg" alt="Ankara, BTK Yapay Zeka Zirvesi 2024" id="slider-image">
+    <button id="next-image">Sonraki Fotoğrafım İçin Tıklayınız</button>
+</div>
+</section>    
+    <!-- MY SERVIVES SECTION ENDS -->
+
+    
+
+    <!-- footer starts -->
+    <footer class="section footer" id="footer">
+        <div class="container footer-container">
+
+            <div class="footer-social-media">
+
+                <a href=""><i class="ri-instagram-fill"></i></a>
+                <a href=""><i class="ri-github-fill"></i></a>
+                <a href=""><i class="ri-linkedin-box-fill"></i></a>
+            </div>
+
+            <div class="footer-nav-menu" id="nav_menu">
+                <ul class="nav-list">
+                    <li class="nav-list-item">
+                        <a href="#banner-home" class="nav-list-link">Anasayfa</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#about_me" class="nav-list-link">Hakkımda</a>
+                    </li>
+                
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="#my_services" class="nav-list-link">Yeteneklerim</a>
+                    </li>
+                    <!-- <li class="nav-list-item">
+                        <a href="#" class="nav-list-link">My Blogs</a>
+                    </li> -->
+                    <li class="nav-list-item">
+                        <a href="#contact" class="nav-list-link">İletişim</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <p>Created by <a style="color: rgb(205,83,104)" href="https://www.instagram.com/savaszeynep_/?next=%2F">Zeynep Savaş</a> | All Rights Reserved. </p>
+
+
+        </div>
+
+        
+
+
+    </footer>
+    <!-- foooter ends -->
+
+</main>
+
+
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
